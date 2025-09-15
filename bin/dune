@@ -1,0 +1,17 @@
+(executable
+ (name gen)
+ (modules gen))
+
+(executable
+ (name pcre)
+ (modules pcre)
+ (libraries rebench pcre))
+
+(executable
+ (name pcre2)
+ (modules pcre2)
+ (libraries rebench pcre2))
+(executable
+ (name re)
+ (modules re)
+ (libraries rebench re))
