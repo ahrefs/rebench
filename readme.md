@@ -6,7 +6,8 @@ The benchmark were done on a Thinkpad from 2024 with an Intel Ultra 7 and 32GB
 of ram.
 
 I first generated a large file (239M) with reoccuring pattern `$$//$$` appearing
-50 000 times. Code for that can be found in `bin/gen.ml`.
+50 000 times. Code for that can be found in `bin/gen.ml`. The file is not
+included because it exceed github's size limit.
 
 Then I tested splitting and replacing, a 1000 times each.
 
