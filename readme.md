@@ -17,6 +17,10 @@ I got the following results:
 split: 58.065355
 replace: 62.342115
 
+with  `~study:true` and `~jit_compile:true`:
+split: 18.949022
+replace: 20.299579
+
 ## Pcre2
 split: 16.756501
 replace: 18.157539
