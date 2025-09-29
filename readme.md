@@ -13,7 +13,9 @@ Then I tested splitting and replacing, a 1000 times each.
 
 I got the following results:
 
-## Pcre
+## First run
+
+### Pcre
 split: 58.065355
 replace: 62.342115
 
@@ -21,10 +23,32 @@ with  `~study:true` and `~jit_compile:true`:
 split: 18.949022
 replace: 20.299579
 
-## Pcre2
+### Pcre2
 split: 16.756501
 replace: 18.157539
 
-## Re
+### Re
 split: 242.511451
 replace: 328.344440
+
+## Second run
+
+### Re2
+
+split: 407.500003
+replace: 431.758984
+
+### Pcre
+
+split: 72.654704
+replace: 68.596153
+
+### Pcre2
+
+split: 49.628045
+replace: 34.343249
+
+### Re
+
+split: 243.228666
+replace: 267.361909

@@ -11,7 +11,13 @@
  (name pcre2)
  (modules pcre2)
  (libraries rebench pcre2))
+
 (executable
  (name re)
  (modules re)
  (libraries rebench re))
+
+ (executable
+ (name re2)
+ (modules re2)
+ (libraries rebench re2))
