@@ -11,6 +11,13 @@ included because it exceed github's size limit.
 
 Then I tested splitting and replacing, a 1000 times each.
 
+## Usage
+
+```sh
+dune exec bin/gen.exe test1
+sh run.sh test1
+```
+
 I got the following results:
 
 ## First run
